@@ -2,6 +2,12 @@
 
 一个总 Skill，包含五个剪辑阶段子 Skill。
 
+## 产品化：Vlog Editing Studio
+
+新增面向旅行创作者的[本地 alpha 工作台](studio/README.md)：真实上传、素材预览、人工确认选段、三种排序模板、后台初剪渲染、FCPXML 与 MP4 下载。它复用本仓库的 Python 引擎；尚未接入自动 AI 审片、云端账号或收费，不应作为已上线 SaaS 宣传。
+
+[创业产品定位与试点价格假设](docs/PRODUCT.md) · [从 alpha 到生产的路线图](docs/PRODUCTION.md) · [创始人试点运营手册](docs/PILOT.md)
+
 ```text
 vlog-editing/
 ├── SKILL.md                 总入口：范围、状态、交接和返修路由
