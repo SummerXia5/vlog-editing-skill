@@ -1,0 +1,5 @@
+# Media tool versions exercised with Python 3.12. FFmpeg is a separate executable.
+av==18.1.0
+Pillow==10.3.0
+numpy==1.26.4
+# Optional: lxml==5.2.1 for --dtd validation (use the installed Apple DTD, not a bundled copy).

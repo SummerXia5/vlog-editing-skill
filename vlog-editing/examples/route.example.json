@@ -1,0 +1,8 @@
+{
+  "background": "assets/verified-map.png", "sprite": "assets/car-facing-up.png",
+  "points_px": [[540, 1700], [400, 1200], [320, 600]],
+  "route_source": "Example coordinates only; replace with a sourced, projected route and citation",
+  "geography_verified": false,
+  "frames": 180, "fps": "30000/1001", "sprite_size": 90,
+  "heading_lookahead_px": 25, "route_color": "#e8cf86", "route_width": 5
+}

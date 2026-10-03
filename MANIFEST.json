@@ -1,0 +1,60 @@
+{
+  "entrypoint": "vlog-editing/SKILL.md",
+  "child_skills": [
+    "travel-video-01-review",
+    "travel-video-02-plan",
+    "travel-video-03-design",
+    "travel-video-04-fcpxml",
+    "travel-video-05-preview"
+  ],
+  "executable_cli_count": 7,
+  "test_report": {
+    "passed": true,
+    "checks": [
+      "proxy/original timed samples and honest unverified review state",
+      "transparent ProRes title with CJK tracking",
+      "route endpoints, monotone distance, duplicate points, north/east sprite headings",
+      "29.97 rational timing, nonzero TC, repeated sources, connected graphics/audio, selects/master",
+      "Apple FCPXML 1.10 DTD for both timelines",
+      "reject LRV, out-of-bounds ranges, unsupported speed, missing TC, overwrite",
+      "H264/AAC source-window preview, full decode/hash, originals unchanged"
+    ],
+    "native_fcp_import": false,
+    "publication_tested": false
+  },
+  "files": {
+    ".gitignore": "3dd71c21fdccd3e9ba02947edb9e5dc0a1935919bcf3d69076398518149376c2",
+    "README.md": "6ee270b9ee5b75ac31f7216a852fdc4b41f383f015c64690091fd9cc15f54406",
+    "vlog-editing/SKILL.md": "fd4b9d5ee881e7f79bd1ecffa4e525b556fe7bdb9263317e04f72ce105627462",
+    "vlog-editing/agents/openai.yaml": "84b5223259a8a6b82a398a6e8d119f4ddfa897f883fd923a0995086d6ad33809",
+    "vlog-editing/examples/compile.example.json": "24a8444b30c673da57b85f0dbb284e8624578edfb1e316033cd8db9b6933513f",
+    "vlog-editing/examples/route.example.json": "656457951fe55cd801c6dac6f4c1b594eb2788873ab8611a82784be8759a47a8",
+    "vlog-editing/examples/title.example.json": "69b888c5949b45870800080d5e5e46251a909882ded94944820925b18d07489b",
+    "vlog-editing/references/code-provenance.md": "1e0c20232ca45fd69a6d5f2f9083b12ca018e96bf9f08b5fc94673e99fdc8ea3",
+    "vlog-editing/references/python-tools.md": "3284a68cf476113c7cc87a69bdc72cdeedcaf837ffef0746a5d0a556b88163e7",
+    "vlog-editing/requirements.txt": "0a01539a5b56e00b23dffacee151fb16e420a84fc4b36726b3fa581e5a4b5955",
+    "vlog-editing/scripts/build_fcpxml.py": "d782b83b95b10aee231c8e647dde3f3090a9394397603978def3e96ebe82e8d1",
+    "vlog-editing/scripts/make_preview.py": "665550d5d09bb52f5db373018bcdb27f59e50f8660cc630662434e1b67cb82cd",
+    "vlog-editing/scripts/media_utils.py": "db1e88e7c0242da572899f187cd9af82b34f2c9a4ecd66b418e7a93048ec4ae3",
+    "vlog-editing/scripts/render_route.py": "e1fcd9bf03c78ebb08d8f43f661950726c2af3539b81fb2942337db08d0c6789",
+    "vlog-editing/scripts/render_title.py": "fd85774df5fc727861ac0be45316753d685227b7f0a58e6521fc5a5827300e51",
+    "vlog-editing/scripts/review_media.py": "cdab9c836aeb481c225c283e6fd812d9f1f0bd112842ced9abca0bbd502a3353",
+    "vlog-editing/skills/travel-video-01-review/SKILL.md": "e6d1b9b9230875d4cd6513c45194fb7270a71cb778f261a02ad7281eae813b58",
+    "vlog-editing/skills/travel-video-01-review/agents/openai.yaml": "3c481da05d031be2882293edbc261025bca02e3e50aef68c87a14b44703a4378",
+    "vlog-editing/skills/travel-video-01-review/assets/project.json": "7ace7f45817fd4c6b661f48430dcf8b322092950b6140a2053fcfe23df59391d",
+    "vlog-editing/skills/travel-video-01-review/references/project-contract.md": "52b69a6f00f46adf44aef39d90b43ae03f628867b33ee9c11a4e482747a831f9",
+    "vlog-editing/skills/travel-video-01-review/references/review-method.md": "f7d3468647cce025067238d167ad74f02cd8245f59d95e0ac932518ee6f85b8e",
+    "vlog-editing/skills/travel-video-01-review/scripts/inventory_media.py": "d1212016ec161fb56a5085fe5deb7742eaba9b6b876d9f33b7db388eacbb7fa0",
+    "vlog-editing/skills/travel-video-02-plan/SKILL.md": "90636760c19ff8530f3056244f966b6d5d3cfdfd4a58255d971fe27b0cea6f2f",
+    "vlog-editing/skills/travel-video-02-plan/agents/openai.yaml": "eef4e07b8018c56042e046f3d241258fbc42d414d3661340bdf6be1f3f62a8e1",
+    "vlog-editing/skills/travel-video-03-design/SKILL.md": "c57ade5a7df2f122fe9c017b6aa1622b11d74142dbdedc423a48175a39a5670e",
+    "vlog-editing/skills/travel-video-03-design/agents/openai.yaml": "f946a515c08e4c8f104c6ca4c3eb71851be7c9ace8fa1437d508938fba62156f",
+    "vlog-editing/skills/travel-video-04-fcpxml/SKILL.md": "c70a416a372ae3dbd2cfeac83e0c06ddbf34a9ab09f029a290d88396ba198c12",
+    "vlog-editing/skills/travel-video-04-fcpxml/agents/openai.yaml": "566c62053bc3dbd862ee18d7f53276eb6513448b7e3eb11796a91b7050d18692",
+    "vlog-editing/skills/travel-video-04-fcpxml/references/fcpxml-handoff.md": "ce7f6e6e455321d24d3f67e769e0059b7da42ab5f699bb3a41d2e0b07f890338",
+    "vlog-editing/skills/travel-video-04-fcpxml/scripts/check_fcpxml.py": "92a2fe81924e043a452fe555c279fd4228d7eabe67f088fcc4777c4f0d0e7b95",
+    "vlog-editing/skills/travel-video-05-preview/SKILL.md": "a9c8cb91d361715e5c9ce77b6d03be0c73543c422cb19572413c5a1af2692f61",
+    "vlog-editing/skills/travel-video-05-preview/agents/openai.yaml": "78d978a1a377971ad7a27252d1cd5398d66a757b16950f4f324fdff770629672",
+    "vlog-editing/tests/smoke_pipeline.py": "14f4bfb6c8e53f081c9022fa1198fb1d5983cb3960cddae2f6b91c47d79a39a9"
+  }
+}

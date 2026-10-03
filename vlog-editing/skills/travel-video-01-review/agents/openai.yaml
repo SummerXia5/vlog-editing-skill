@@ -1,0 +1,4 @@
+interface:
+  display_name: "01 素材审看"
+  short_description: "优先分析代理素材，核对原片对应关系并记录画面、对白和互动证据"
+  default_prompt: "使用 $travel-video-01-review 处理我的旅行视频项目，读取已有项目记录并完成本阶段可验证的交付。"

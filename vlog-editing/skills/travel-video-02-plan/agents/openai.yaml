@@ -1,0 +1,4 @@
+interface:
+  display_name: "02 多方案规划"
+  short_description: "从审看素材形成电影版、体验 Vlog 等不同方案与可执行时间线"
+  default_prompt: "使用 $travel-video-02-plan 处理我的旅行视频项目，读取已有项目记录并完成本阶段可验证的交付。"

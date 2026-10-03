@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "New Trip",
+  "sequence": {"width": 1080, "height": 1920, "fps": "30000/1001", "color_space": "1-1-1 (Rec. 709)"},
+  "assets": {
+    "camera_a": {"path": "media/original.mp4", "kind": "original", "tc_start": "0", "color_space": "1-1-1 (Rec. 709)"},
+    "opening": {"path": "assets/title.mov", "kind": "generated", "tc_start": "0", "color_space": "1-1-1 (Rec. 709)"},
+    "music": {"path": "assets/licensed_music.wav", "kind": "generated", "tc_start": "0"}
+  },
+  "timelines": [
+    {"name": "TRIP_SELECTS", "kind": "selects", "clips": [
+      {"id": "select_a", "asset": "camera_a", "in": 0, "frames": 300, "note": "Example only: replace with reviewed source interval."}
+    ]},
+    {"name": "TRIP_MASTER_v01", "kind": "master", "clips": [
+      {"id": "shot_a", "asset": "camera_a", "in": 60, "frames": 150, "conform": "fit", "gain_db": -3,
+       "overlays": [{"id": "title_a", "asset": "opening", "in": 0, "at": 15, "frames": 90, "role": "titles"}]}
+    ], "audio": [{"asset": "music", "in": 0, "at": 0, "frames": 150, "gain_db": -18, "role": "music"}]}
+  ]
+}

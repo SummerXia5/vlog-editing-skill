@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vlog Editing"
+  short_description: "统筹五阶段旅行视频剪辑：审片、方案、包装、Final Cut 工程与预览交付"
+  default_prompt: "使用 $vlog-editing 处理我的旅行视频，读取已有项目进度，从需要的阶段开始，并先提供有素材依据的剪辑方案。"

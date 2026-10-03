@@ -1,0 +1,6 @@
+{
+  "width": 1080, "height": 1920, "frames": 120, "fps": "30000/1001", "fade_frames": 10,
+  "lines": [
+    {"text": "一路向北", "font": "fonts/your-licensed-cjk-font.ttf", "size": 52, "x": 100, "baseline": 1500, "tracking": 5, "color": [246, 242, 224]}
+  ]
+}

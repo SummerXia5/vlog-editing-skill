@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "source_roots": [],
+  "output_root": null,
+  "current_version": null,
+  "brief": {
+    "mode": null,
+    "aspect_ratio": null,
+    "frame_rate": null,
+    "color_space": null,
+    "duration_request": null,
+    "dialogue_policy": null,
+    "day_labels": null,
+    "calendar_dates": null
+  },
+  "constraints": [],
+  "people": [],
+  "selected_plan_id": null,
+  "plan_status": "not_selected",
+  "stages": {
+    "1": {
+      "status": "not_started",
+      "approval": "not_requested",
+      "inputs": [],
+      "outputs": [],
+      "unresolved": []
+    },
+    "2": {
+      "status": "not_started",
+      "approval": "not_requested",
+      "inputs": [],
+      "outputs": [],
+      "unresolved": []
+    },
+    "3": {
+      "status": "not_started",
+      "approval": "not_requested",
+      "inputs": [],
+      "outputs": [],
+      "unresolved": []
+    },
+    "4": {
+      "status": "not_started",
+      "approval": "not_requested",
+      "inputs": [],
+      "outputs": [],
+      "unresolved": []
+    },
+    "5": {
+      "status": "not_started",
+      "approval": "not_requested",
+      "inputs": [],
+      "outputs": [],
+      "unresolved": []
+    }
+  },
+  "artifacts": {},
+  "delivery": {
+    "local_version": null,
+    "hosted_version": null,
+    "publish_requested": false,
+    "audience": null
+  }
+}

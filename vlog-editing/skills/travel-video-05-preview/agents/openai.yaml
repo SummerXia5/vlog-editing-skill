@@ -1,0 +1,4 @@
+interface:
+  display_name: "05 预览与下载"
+  short_description: "渲染兼容预览，验证实际播放和完整下载，并按精确反馈迭代"
+  default_prompt: "使用 $travel-video-05-preview 处理我的旅行视频项目，读取已有项目记录并完成本阶段可验证的交付。"
