@@ -23,8 +23,8 @@
     "publication_tested": false
   },
   "files": {
-    ".gitignore": "3dd71c21fdccd3e9ba02947edb9e5dc0a1935919bcf3d69076398518149376c2",
-    "README.md": "6ee270b9ee5b75ac31f7216a852fdc4b41f383f015c64690091fd9cc15f54406",
+    ".gitignore": "996266b58f66b2c9a1f567bd5281001f11e2331573f8d72b32a32ba542255404",
+    "README.md": "43c2909d5a532ab6bc1996b503e7bcdf798dde2c4db21b15962d8acf1f057c8c",
     "vlog-editing/SKILL.md": "fd4b9d5ee881e7f79bd1ecffa4e525b556fe7bdb9263317e04f72ce105627462",
     "vlog-editing/agents/openai.yaml": "84b5223259a8a6b82a398a6e8d119f4ddfa897f883fd923a0995086d6ad33809",
     "vlog-editing/examples/compile.example.json": "24a8444b30c673da57b85f0dbb284e8624578edfb1e316033cd8db9b6933513f",
